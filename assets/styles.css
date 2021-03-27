@@ -1,5 +1,5 @@
 body {
-    
+
     background-image: url("anime_money_water.gif");
     background-size: 300px;
 
@@ -19,7 +19,8 @@ body {
     color: white;
     text-align: center;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 30px 40px;
     width: 600px;
     border-radius: 15px;
@@ -57,7 +58,7 @@ span.links a {
 
 #nnw {
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     width: 80%;
     /* display in-line */
 }
