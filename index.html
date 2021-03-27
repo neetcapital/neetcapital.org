@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>NEET Capital</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <h2 class="header-title"><span onclick="neetNoWage()">NEET</span> Capital</h2>
+                <p class="descriptor">Venture and Incubation DAO</p>
+                <p class="hero-text">Developing an ecosystem to converge DeFi and DevOps in order to automate full business operations and streamline the idea-production-growth process for new startups in the industry.</p>
+
+                <span class="links"><a href="https://github.com/neetcapital">GitHub</a> | <a href="#">Discord</a></span>
+                <!-- add twitter and medium -->
+                <img id="nnw" src="neet-no-wagie.png" style="display: none;" />
+            </div>
+        </div>
+        <script>
+        function neetNoWage() {
+            let nnw = document.getElementById('nnw').style.display;
+            if (nnw == "none") {
+                document.getElementById('nnw').style.display = "";
+            } else if (nnw == "") {
+                document.getElementById('nnw').style.display = "none";
+            }
+        }
+        </script>
+    </body>
+</html>

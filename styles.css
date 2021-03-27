@@ -1,0 +1,51 @@
+body {
+    background-image: url("anime_money_water.gif");
+    font-family: helvetica, sans-serif;
+}
+
+.wrapper {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 30px 40px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.content {
+    display: inline-block;
+    text-align: center;
+}
+
+h2.header-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+h2.header-title span:hover {
+    font-style: italic;
+}
+
+p.descriptor {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+p.hero-text {
+    font-size: 16px;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+}
+
+span.links a {
+    color: white;
+}
+
+#nnw {
+    margin-top: 30px;
+    width: 80%;
+    /* display in-line */
+}
