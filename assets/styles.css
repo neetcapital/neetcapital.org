@@ -1,27 +1,18 @@
 body {
 
-    background-image: url("anime_money_water.gif");
-    background-size: 300px;
-
-    /*
-    background: url("anime_money_water.gif") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    */
+    background-color: black;
 
     font-family: helvetica, sans-serif;
 }
 
 .wrapper {
-    background-color: black;
+    background-color: #2C2F33;
     color: white;
     text-align: center;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    padding: 30px 40px;
+    padding: 40px 40px;
     width: 600px;
     border-radius: 15px;
 }
@@ -61,4 +52,25 @@ span.links a {
     margin-bottom: 15px;
     width: 80%;
     /* display in-line */
+}
+
+.avatar {
+    position: relative;
+    margin: 0 auto 35px;
+    text-align: center;
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+    animation-name: bounce;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: bounce;
+}
+
+.logo-avatar {
+    box-shadow: 0px 0px 12px white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    max-width: 100%;
+    width: 20%;
 }
